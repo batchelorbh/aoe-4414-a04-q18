@@ -3,8 +3,8 @@
 #
 # Converts ECEF components to ECI
 #
-# Usage: python3 ecef_to_eci.py year month day hour minute second
-#                               ecef_x_km ecef_y_km ecef_z_km
+# Usage: python3 eci_to_ecef.py year month day hour minute second
+#                               eci_x_km eci_y_km eci_z_km
 #
 # Written by Blake Batchelor, batchelorbh@vt.edu
 # Other contributors: none
@@ -21,7 +21,7 @@
 #    eci_z_km            ECI z component
 #
 # Output:
-#    Prints ECI components to the screen
+#    Prints ECEF components to the screen
 #
 # Revision history:
 #    09/29/2024          Script created
