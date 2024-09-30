@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # eci_to_ecef.py
 #
-# Converts ECEF components to ECI
+# Converts ECI components to ECEF
 #
 # Usage: python3 eci_to_ecef.py year month day hour minute second
 #                               eci_x_km eci_y_km eci_z_km
