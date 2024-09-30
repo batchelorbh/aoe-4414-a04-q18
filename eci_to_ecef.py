@@ -64,8 +64,8 @@ if len(sys.argv) == 10:
    eci_y_km = float(sys.argv[8])
    eci_z_km = float(sys.argv[9])
 else:
-   print(('Usage: python3 ecef_to_eci.py year month day hour minute second '
-                         'ecef_x_km ecef_y_km ecef_z_km'))
+   print(('Usage: python3 eci_to_ecef.py year month day hour minute second '
+                         'eci_x_km eci_y_km eci_z_km'))
    sys.exit()
 
 #Main body of script
